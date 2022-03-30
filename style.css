@@ -1,0 +1,40 @@
+#aman1{
+    position:fixed;
+    display:none;
+    width:100vw;
+    height:100vh;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(248, 246, 246, 0.7);
+    z-index:2;
+    cursor:pointer;
+}
+#aman3{
+    position:absolute;
+    top:20vh;
+    left:30vw;
+    background-color: rgb(214, 205, 205);
+}
+input{
+    float:right;
+}
+@media screen and (max-width:600px){
+    #aman3{
+        position:absolute;
+        top:20vh;
+        left:10vw;
+        background-color: rgb(214, 205, 205);
+    }
+}
+#aman10{
+    text-align: center;
+    display:inline-block;
+    width:30%;
+    
+}
+#aman11{
+    display:inline-block;
+    width:10%;
+}
